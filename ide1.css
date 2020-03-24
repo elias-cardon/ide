@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+.font
+{
+	font-family: 'Gotu', sans-serif;
+}
+
+body
+{
+	background-image: linear-gradient(141deg, #DFB97B 0%, #F89A01 51%, orange 75%);
+}
+
+/*Bar de navigation*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+nav
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FA8072, #F08080, #FFA07A;
+	position: sticky;
+	top: 0px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav ul li
+{
+	float: left;
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+
+nav ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a
+{
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid gold;
+	padding: 10px 0px;
+}
+
+nav a:hover
+{
+	color: cadetblue;
+	border-bottom: 2px solid gold;
+}
+
+.sous
+{
+	display: none;
+	box-shadow: 0px 1px 2px #CCC;
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav > ul li:hover .sous
+{
+	display: block;
+}
+
+.sous li
+{
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+
+.sous a
+{
+	padding: 10px;
+	border-bottom: none;
+}
+
+.sous a hover
+{
+	border-bottom: none;
+	background-color: rgba(200,200,200,0.1);
+}
+
+/*Fin bar nav*/
+
+.Sublime
+{
+	height: 100px;
+	width: 100px;
+}
+
+.description
+{
+	display: flex;
+  	flex-direction: column;
+  	height: 400px;
+  	justify-content: space-between;
+  	align-items: center;
+  	width: 900px;
+  	padding-top:10px;
+  	padding-bottom:10px;
+  	text-align: center;
+  	background: #FA8072, #F08080, #FFA07A;
+  	margin: auto;
+  	margin-top: 4%;
+}
+
+.Sublime1
+{
+	height: 30%;
+	width: 30%;
+}
+
+.Sublime2
+{
+	height: 30%;
+	width: 30%;
+}
+
+.Sublime3
+{
+	height: 30%;
+	width: 30%;
+}
+
+/*Réseau*/
+.twitter
+{
+	height: 20px;
+	width: 20px;
+}
+
+.facebook
+{
+	height: 20px;
+	width: 20px;
+}
+
+button
+{
+	padding: 10px 30px; 
+	background: orange; 
+	color: white; 
+}
+
+button:hover
+{
+	background: #FA9F64;
+}
